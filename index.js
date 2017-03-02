@@ -21,17 +21,6 @@ var api = new ParseServer({
   liveQuery: {
     classNames: ["Posts", "Comments"] // List of classes to support for query subscriptions
   },
-  var api = new ParseServer({
-  databaseURI: databaseUri || 'mongodb://heroku_nrvn8l4v:5fnbgck1bg3evcsos53jhsgdfn@ds139869.mlab.com:39869/heroku_nrvn8l4v',
-  cloud: process.env.CLOUD_CODE_MAIN || __dirname + '/cloud/main.js',
-  appId: process.env.APP_ID || 'rtAwZgAp1n3wLWENA7QIBCx9KqwiuEL1REI2o6Xa',
-  masterKey: process.env.MASTER_KEY || 'pKDFFTbtPrrzava6k3nXngkkupsHkeKjjGxp4TZk', //Add your master key here. Keep it secret!
-  fileKey:process.env.FILE_KEY || 'efb90c48-072f-439e-b841-b8dc455de16b', //Add your filekey here.
-  serverURL: process.env.SERVER_URL || 'https://wkblocal.herokuapp.com/parse',  // Don't forget to change to https if needed
-  liveQuery: {
-    classNames: ["Posts", "Comments"] // List of classes to support for query subscriptions
-  },
-  
   verifyUserEmails: true,
   publicServerURL: 'https://milkthemomentclient.herokuapp.com/parse',
  // appName: 'Parse App',

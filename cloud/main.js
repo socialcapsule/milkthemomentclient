@@ -18,8 +18,9 @@ client.sendSms({
    // to: '+919951121245',
   to: toUser,
     //from: '+16467627663', 
-    from: '+14437207459 ',
-    body: msgBody
+    //from: '+14437207459 ',
+  from:'+12028835641',  
+  body: msgBody
   }, function(err, responseData) { 
     if (err) {
       console.log(err);
